@@ -31,3 +31,11 @@ def merge_sort_count(arr, left, right):
 arr = list(map(int, input("Enter elements separated by space: ").split()))
 result = merge_sort_count(arr, 0, len(arr) - 1)
 print("Number of inversions:", result)
+
+
+
+
+
+OUTPUT -
+Enter elements separated by space: 5 7 3 6 4 1
+Number of inversions: 11
